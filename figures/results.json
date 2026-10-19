@@ -1,0 +1,22 @@
+{
+  "seed": 5262,
+  "training_n": 337,
+  "test_n": 113,
+  "models": [
+    {
+      "model": "Ridge",
+      "test_mse": 2.828332145348398,
+      "alpha": 10.0
+    },
+    {
+      "model": "Polynomial kernel",
+      "test_mse": 0.36106717852852654,
+      "alpha": 1.0
+    },
+    {
+      "model": "RBF kernel",
+      "test_mse": 0.28736921067002985,
+      "alpha": 0.01
+    }
+  ]
+}
